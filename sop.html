@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+
+    <meta charset="utf-8">
+    <meta name="description" content="Hononegah Community High School Tech Help Student Workers Standard Operating Procedures">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Standard Operating Procedures</title>
+  </head>
+
+
+  <body>
+    <header>
+      <div id=logo-heading-div>
+        <img src="https://i.imgur.com/2G17jJf.png" alt="Student Tech Help Logo" id="logo">
+        <h1>Hononegah Student Tech Help</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="navlist"><a href="index.html">About</a></li>
+          <li class="navlist"><a href="sop.html">SOP</a></li>
+          <li class="navlist"><a href="repair-and-maintenance-guides.html">Repair and Maintenance Guides</a></li>
+          <li class="navlist"><a href="documents.html">Important Documents</a></li>
+          <li class="navlist"><a href="contacts.html">Contacts</a></li>
+  		  <li class="navlist"><a href="https://www.hononegah.org/" target="_blank">HCHS Home Page</a>
+        </ul>
+      </nav>
+      
+      <h1>Standard Operating Procedures</h1>
+        <p id="version">Version 2.3</p>
+        
+    </header>
+      
+    <button id="followbutton" class="openbutton" onclick="openNav()">&#9776; Table of Contents</button>
+    <div id="mysidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+        <h2 id="table-of-contents">Table of Contents</h2>
+          <ul>
+            <li><a href="#table-of-contents"><b>Table of Contents</b></a></li>
+            <li><a href="#expectations"><b>Expectations</b></a></li>
+              <ul>
+                <li><a href="#safe">Safe</a></li>
+                <li><a href="#respectful">Respectful</a></li>
+                <li><a href="#responsible">Responsible</a></li>
+                <li><a href="#potential-consequences">Potential Consequences</a></li>
+                <li><a href="#workspace">Workspace</a></li>
+              </ul>  
+            <li><a href="#work-orders"><b>Work Orders</b></a></li>
+              <ul>
+                <li><a href="#creating-a-work-order">Creating a Work Order</a></li>
+                <li><a href="#documenting-steps">Documenting Steps</a></li>
+                <li><a href="#adding-inventory-parts-to-a-work-order">Adding Inventory Parts to a Work Order</a></li>
+                <li><a href="#adding-labor-to-a-work-order">Adding Labor to a Work Order</a></li>
+                <li><a href="#completing-a-work-order">Completing a Work Order</a></li>
+                <li><a href="#ordering-parts">Ordering Parts</a></li>
+              </ul>
+            <li><a href="#troubleshooting"><b>Troubleshooting</b></a></li>
+              <ul>
+                <li><a href="#power-on-issues">Power On Issues</a></li>
+                <li><a href="#no-display-issues">No Display Issues</a></li>
+                <li><a href="#lcd-picture-failure">LCD Picture Failure</a></li>
+                <li><a href="#internal-keyboard-failure">Internal Keyboard Failure</a></li>
+                <li><a href="#touchpad-failure">Touchpad Failure</a></li>
+                <li><a href="#internal-speaker-failure">Internal Speaker Failure</a></li>
+              </ul>
+            <li><a href="#inventory"><b>Inventory</b></a></li>
+              <ul>
+                <li><a href="#scrapping-a-device">Scrapping a Device</a></li>
+                <li><a href="#salvaging-parts">Salvaging Parts</a></li>
+                <li><a href="#adding-inventory-parts">Salvaging Inventory Parts</a></li>
+              </ul>
+            <li><a href="#vocabulary"><b>Vocabulary</b></a></li>
+            <li><a href="#chromebook-details"><b>Chromebook Details</b></a></li>
+              <ul>
+                <li><a href="#battery-lights">Battery Lights</a></li>
+                <li><a href="#model-number">Model Number</a></li>
+                <li><a href="#forced-reboot-/-local-refresh">Forced Reboot / Local Refresh</a></li>
+                <li><a href="#serial-number">Serial Number</a></li>
+              </ul>
+            <li><a href="#printer-toner"><b>Printer Toner Request</b></a></li>
+              <ul>
+                <li><a href="#printer-toner-request">Printer Toner Request</a></li>
+              </ul>
+          </ul>
+          <br><br><br><br>
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="expectations"> Expectations</h2>
+          <h3 id="safe">Safe</h3>
+          <ul>
+            <li>Students use tools appropriately to complete repairs (This looks like taking one’s time and working peacefully and carefully)</li>
+            <li>Students scrap devices, transport e-waste, and place any e-waste carefully into e-waste boxes (This looks like no deliberately snapping or breaking parts)</li>
+          </ul> 
+          <h3 id="respectful">Respectful</h3>
+          <ul>
+            <li>Students use school-appropriate language</li>
+            <li>Students will use their time on their shift to work on tickets. (This looks like sitting at a workstation with tools and ticket parts ready. Talking with friends and listening to music is fine while at workbench)</li>
+            <li>Students will talk with Daniel or Christian before any device is scrapped to review ticket info and steps taken.</li>
+          </ul>
+          <h3 id="responsible">Responsible</h3>
+          <ul>
+            <li>Students who claim a Hononegah repair ticket will prioritize that ticket and plan to complete it ASAP.</li>
+            <li>Students accurately fill out tickets using SOPs and document steps and parts used</li>
+            <li>Students ask for help when stuck</li>
+            <li>Students will check Tech Help Google chats</li>
+            <li>Students will be on time for their two weekly scheduled shifts (class periods) and communicate via Google Chat with Daniel about rescheduling missed shifts.</li>
+            <li>Students are welcome to hang out in the TechHelp room before and after school, during lunch breaks with your laminated lunch pass, and during class periods if you have a signed teacher pass (Christian or Daniel only must be available).</li>
+            <li>Students who choose to schedule a work shift during their lunch class period must eat their food within a reasonable time and then continue their tickets.</li>
+          </ul>
+          <h3 id="potential-consequences">Potential Consequences</h3>
+          <ol type="1">
+            <li>Verbal warning from Daniel or Christian about inappropriate behaviors</li>
+            <li>Conversation with Daniel or Christian about specific behavior that doesn’t meet expectations and specific feedback about what needs to change and why</li>
+            <li>Daniel will share that a one-week break from working/eating in the Tech Help room is needed as another chance to take a break and make specific changes. Tickets might be reassigned during the break to other students.</li>
+            <li>If unacceptable behavior continues, Daniel will share that a longer break is needed and the student can try again during the next semester or the following school year. Tickets and workshelf will be reassigned.</li>
+          </ol>
+          <h3 id="workspace">Workspace</h3>
+          <ol type="1">
+            <li>Before leaving the workspace students will:</li>
+              <ol type="a">
+                <li>Put tools away in toolkits (screwdrivers can be left charging on the workbench)</li>
+                <li>Have clean drawers</li> 
+                <li>All screws and parts on their work shelf</li>
+                <li>Throw away or store any salvaged screws.</li>
+                <li>Place all e-waste in boxes.</li>
+                <li>Push-in work chairs</li> 
+              </ol>
+            <li>Students can leave backpacks, coats, and other personal belongings in the TechHelp room, but not on work chairs.</li>  
+          </ol>
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="work-orders">Work Orders</h2>
+          <h3 id="creating-a-work-order">Creating a Work Order</h3>
+          <ol type="1">
+            <li>Choose a device awaiting repairs, ask Daniel if you need help finding where to look.</li>
+            <li>Log into MLWorkorders from Google Classroom</li>
+            <li>Click on blue “New Request” and select “Technology”</li>
+            <li>Requester:</li>
+              <ol type="a">
+                <li>If a Rockton device choose "Rockton 140"</li>
+                <li>If a Prairie Hill device choose “PrairieHill 113”</li>
+                <li>If a Hononegah Device choose the device owner's name (check on the sticker or ask Christian or Daniel for help)</li>
+              </ol>
+            <li>Request type: Technology.</li>
+            <li>Building:</li>
+              <ol type="a">
+                <li>If a Rockton Device</li>
+                  <ol type="i">
+                    <li>"Stephen Mach MS" if from SMMS</li>
+                    <li>"Rockton Grade School" if from RGS</li>
+                  </ol>
+                <li>If a Prairie Hill device choose "PrairieHillSD"</li>
+                <li>If a Hononegah Device choose "Hononegah High School"</li>
+              </ol>
+            <li>Space:</li>
+              <ol type="a">
+                <li>If a Rockton device, select same as for Building</li>
+                <li>If a Prairie Hill device, select the same as for Building</li>
+                <li>If a Hononegah device, select “1112A Library Storage and Chromebook Repair”</li>
+              </ol>
+            <li>Description</li>
+              <ol type="a">
+                <li>Everything that’s written on the Post-it note</li>
+                <li>User name or Barcode number</li>
+                <li>Device Serial number (See <b>Serial Number</b> on page 17)</li>
+                <li>Chromebook model number (See <b>Model Number</b> on page 16)</li>
+                <li>What you observe about the device that isn’t on the Post-it note (visible damage, something doesn’t work, etc)</li>
+              </ol>
+            <li>Purpose: Hardware</li>
+            <li>Problem Type: Student Chromebook Repair</li>
+            <li>Assigned to: Yourself and Daniel Burchardt</li>
+            <li>Click “Submit Work Order”</li>
+            <li>Write the Work Order Number on the Post-it note</li>
+            <li>The device’s post-it note must stay with that device.</li>
+          </ol>
+          <h3 id="documenting-steps">Documenting Steps</h3>
+            <p>Here are some examples of what to write when documenting one’s steps:</p>
+            <p>“Device has a cracked bezel and a flickering screen. Tried replacing the screen but there were still flickers. Kept the new screen and also tried a new display cable. Screen is now functional. Tried the old screen and that still works. The old display cable was the problem and will be replaced. Original screen works and will be paired with a new display cable. Also replaced the bezel. Device is now fully functional.”</p>
+          <h3 id="adding-inventory-parts-to-a-work-order">Adding Inventory Parts to a Work Order</h3>
+            <ol type="1">
+              <li>Go to your Work Order (You can search by WO number in the search bar at the top).</li>
+              <li>Scroll down and click on “Add Inventory”</li>
+              <li>Space: “1112A Library Storage & Chromebook Repair”</li>
+              <li>Location: “School Name” “Part Name” (Model)</li>
+              <li>Quantity: Amount used in work order</li>
+              <li>Click “Save”</li>
+            </ol>
+          <h3 id="adding-labor-to-a-work-order">Adding Labor to a Work Order</h3>
+            <ol type="1">
+              <li>Go to your Work Order</li>
+              <li>Scroll down and click on "Add Labor"</li>
+              <li>Hours: 0.5 is 30 minutes, 0.25 is 15 minutes, etc.</li>
+              <li>Notes: What steps did you take during this chunk of time?</li>
+              <li>Click “Save”</li>
+            </ol>
+          <h3 id="completing-a-work-order">Completing a Work Order</h3>
+            <ol type="1">
+              <li>Wipe down the screen using a microfiber cloth and spray, and remember to always spray the cloth and not the screen.</li>
+              <li>Then open the Work Order on ML</li>
+              <li>Scroll down and click on the empty text box, and then type out every step you used while fixing the device (You can also share your troubleshooting steps in the Labor notes)</li>
+              <li>Once that's done click on “save”</li>
+              <li>Make sure that you have added all of the inventory you used on the work order.</li>
+              <li>Scroll down and click on “Add Labor”</li>
+              <li>Hours: 0.5 is 30 minutes, 0.25 is 15 minutes, etc.</li>
+              <li>Notes: What steps did you take during this chunk of time?</li>
+              <li>Click “Save/Complete Work Order”</li>
+              <li>Put the Chromebook (with a post-it note) on Daniel’s workbench</li>
+            </ol>
+          <h3 id="ordering-parts">Ordering Parts</h3>
+            <p>If the part you need isn't in inventory, follow these steps</p>
+            <ol type="1">
+              <li>Please check if your part is available on MLInventory</li>
+              <li>Ask Daniel if he knows of an available part.</li>
+              <li>Look at the bin labels if any parts can be used for multiple devices.</li>
+              <li>If neither works, then you will need to place a request to order a part.</li>
+                <ol type="a">
+                  <li>Go to the spreadsheet “Parts we need Daniel to buy” (posted under Classwork on Google Classroom)</li>
+                  <li>Fill out all relevant information on the spreadsheet.</li>
+                  <li>Go to your work order</li>
+                  <li>In the text box for documenting steps, state what part is missing and state that it needs to be ordered. Then add “waiting for parts” to the end.</li>
+                  <li>Go to the top of the page, there is a green box that says “Assigned”, click it.</li>
+                  <li>Select “On Hold”</li>
+                  <li>Then select “On hold indefinitely”</li>
+                  <li>Place the CB on your shelf until the parts arrive.</li>
+                </ol>
+            </ol>
+            <p>When the parts come in, make sure to select the AGParts inventory option so they can be properly tracked by ML.</p>
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="troubleshooting">Troubleshooting</h2>
+          <h3 id="power-on-issues">Power On Issues</h3>
+            <img src="https://i.imgur.com/MgDV8Ko.jpg" alt="Power On Issues Flowchart" class="flowchart">
+          <h3 id="no-display-issues">No Display Issues</h3>
+            <img src="https://i.imgur.com/dGJeCBZ.jpg" alt="No Display Issues Flowchart" class="flowchart">
+          <h3 id="lcd-picture-failure">LCD Picture Failure</h3>
+            <img src="https://i.imgur.com/t52BFug.jpg" alt="LCD Picture Failure Flowchart" class="flowchart">
+          <h3 id="internal-keyboard-failure">Internal Keyboard Failure</h3>
+            <img src="https://i.imgur.com/oBUmzwj.jpg" alt="Internal Keyboard Failure FLowchart" class="flowchart">
+          <h3 id="touchpad-failure">Touchpad Failure</h3>
+            <img src="https://i.imgur.com/FVGEWBz.jpg" alt=" Touchpad Failure Flowchart" class="flowchart">
+          <h3 id="internal-speaker-failure">Internal Speaker Failure</h3>
+            <img src="https://i.imgur.com/GZXwJtv.jpg" alt="Internal Speaker Failure Flowchart" class="flowchart">
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="inventory">Inventory</h2>
+          <h3 id="scrapping-a-device">Scrapping a Device</h3>
+            <p>The process of evaluating if a device can be repaired or if its parts can be reused.</p>
+            <ol type="1">
+              <li>Make sure you have accurately documented steps and used parts in your ticket so we can understand what isn’t working and why.</li>
+              <li>Talk with Daniel or Christian to explain your troubleshooting process.</li>
+              <li>They will review your ticket notes and documented steps to decide if the device has more value as spare parts or if it’s worth ordering an expensive part.</li>
+            </ol>
+          <h3 id="salvaging-parts">Salvaging Parts</h3>
+            <p>The process of identifying useful parts to salvage, safely removing them, accurately documenting and updating MLInventory, and accurately placing them in the correct bin location.</p>
+            <p>Before you salvage, you need to grab a Salvaging Parts Checklist (on the white shelf), and follow the steps below:</p>
+            <ol type="1">
+              <li>Talk with Daniel or Christian about known issues and what steps were taken on the WO</li>
+              <li>When approved, please ask what parts are needed to be salvaged.</li>
+              <li>Mark the number of parts salvaged on this form</li>
+              <li>Give this form to Daniel with all parts in a pile on his workbench to be added to MLInventory</li>
+              <li>Daniel and Christian can show where items go. Please ask if you feel unsure!</li>
+            </ol>
+          <h3 id="adding-inventory-parts">Adding Inventory Parts</h3>
+            <ol type="1">
+              <li>Go to inventory and select "View All Inventory"</li>
+              <li>Scroll down until you find the part that you are adding</li>
+              <li>Click on the small “Up/Down” button and add the correct amount of the part.</li>
+              <li>Click Done.</li>
+            </ol>
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="vocabulary">Vocabulary</h2>
+          <dl>
+            <dt>AC</dt>
+              <dd>Alternating Current. This refers to connecting a device to a charge for testing</dd>
+            <dt>AGParts</dt>
+              <dd>The company that parts are ordered from.</dd>
+            <dt>Bezel</dt>
+              <dd>A piece of plastic used to protect the cables and hinges of a Chromebook display. It contains a small magnet that can be used to trick a CB into entering sleep mode. </dd>
+            <dt>CB</dt>
+              <dd>Chromebook</dd>
+            <dt>EOD</dt>
+              <dd>End of Day</dd>
+            <dt>FFC</dt>
+              <dd>Flexible Flat Cable (computer ribbon)</dd>
+            <dt>FPC</dt>
+              <dd>Flexible Printed Circuit. The technical term for the metal connectors on the end of a plastic ribbon or cable.</dd>
+            <dt>Inventory</dt>
+              <dd>An organized list of items and how many of each are available.</dd>
+            <dt>LCD</dt>
+              <dd>Liquid Crystal Display</dd>
+            <dt>LCD Display Screen</dt>
+              <dd>The screen</dd>
+            <dt>LCD Display Module</dt>
+              <dd>The entire top cover with everything connected including screen, bracket, hinges, etc. Everything is together.</dd>
+            <dt>Mainboard or M/B</dt>
+              <dd>The brain and central hub of the device. Everything plugs into it</dd>
+            <dt>Manufacturer</dt>
+              <dd>The company that designed and created the device (for example, Acer, Hewlett-Packard, Lenovo, etc).</dd>
+            <dt>ML</dt>
+              <dd>MasterLibrary. The software we use to document our repair tickets and parts inventory.</dd>
+            <dt>Model</dt>
+              <dd>The version or series of a Chromebook. Some parts can be used for multiple models, so please read the bin labels or ask for help if you are stuck.</dd>
+            <dt>PHSD#144</dt>
+              <dd>Prairie Hill School District #144</dd>
+            <dt>RSD#140</dt>
+              <dd>Rockton School District</dd>
+              <ul>
+                <li><dt>RGS</dt>
+                  <dd>Rockton Grade School</dd></li>
+                <li><dt>SMMS</dt>
+                  <dd>Stephen Mack Middle School</dd>
+                </li>
+              </ul>
+            <dt>S/N#</dt>
+              <dd>Serial Number. The unique identifying number that is specific to each singular Chromebook device.</dd>
+            <dt>SOP</dt>
+              <dd>Standard Operating Procedure. A step-by-step guide about how to complete a task.</dd>
+            <dt>SPK</dt>
+              <dd>Speaker or Speaker Cable</dd>
+            <dt>Spudger</dt>
+              <dd>A plastic or metal pry tool used to remove plastic parts.</dd>
+            <dt>TP</dt>
+              <dd>Touchpad</dd>
+            <dt>USB-A</dt>
+              <dd> Universal Serial Bus, Type A. A specific shaped port on a Chromebook that organizes power and data from the device to an external source.</dd>
+            <dt>USB-C</dt>
+              <dd> Universal Serial Bus, Type C. A specific shaped port on a Chromebook that organizes power and data from the device to an external source.</dd>
+            <dt>WLAN</dt>
+              <dd>Wireless Local Area Network, aka Wi-Fi.</dd>
+            <dt>Work Order or "W/O"</dt>
+              <dd> Also known as a ticket. MasterLibrary’s online document that collects all the information regarding a technology issue. There will always be a 4-digit number.</dd>
+            <dt>ZIF Connector</dt>
+              <dd> Zero Insertion Force wire-to-board connectors are used for attaching wires to printed circuit boards inside electronic equipment.</dd>
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="chromebook-details">Chromebook Details</h2>
+          <h3 id="battery-lights">Battery Lights</h3>
+            <h4>Acer</h4>
+              <h5>No Battery Light</h5>
+                <p>The motherboard isn't detecting that it's connected to a charger.</p>
+              <h5>Amber</h5>
+                <p>The device is charging.</p>
+              <h5>Blinking Amber</h5>
+                <p>The device has a low charge.</p>
+              <h5>Blue</h5>
+                <p>The device is fully charged.</p>
+            <h4>HP</h4>
+              <h5>No Battery Light</h5>
+                <p>The motherboard isn't detecting that it's connected to a charger.</p>
+              <h5>Orange</h5>
+                <p>The device is charging.</p>
+              <h5>White</h5>
+                <p>The device is fully charged and/or powered on.</p>
+              <h5>Blinking White</h5>
+                <p>The device is either in shipping mode, has a charge below 10%, or is malfunctioning, connect it to a charger and try a Local Refresh.</p>
+            <h4>Lenovo</h4>
+              <h5>No Battery Light</h5>
+                <p>The motherboard isn't detecting that it's connected to a charger.</p>
+              <h5>Green</h5>
+                <p>Device has full power.</p>
+              <h5>Flashing Green</h5>
+                <p>Device is charging and has enough power for operation.</p>
+              <h5>Orange</h5>
+                <p>Device is charging but low on power.</p>
+              <h5>Flashing Orange</h5>
+                <p>Device needs charging</p>
+          <h3 id="model-number">Model Number</h3>
+            <h4>Acer</h4>
+              <p>On the back cover, look in the top left area of the text box, it will say “ Acer Chromebook ____ series”.</p>
+            <h4>HP</h4>
+              <p>On the back cover, look at the right side of the text box, it will say “HP ___ ___ EE”.</p>
+            <h4>Lenovo</h4>
+              <p>On the back cover, look at the right side of the text box, it will say “Lenovo _____ Chromebook _____”.</p>
+          <h3 id="forced-reboot-/-local-refresh">Forced Reboot / Local Refresh</h3>
+            <ol>
+              <li>Connect the device to a charger</li>
+              <li>Hold down the refresh and power buttons for 3 seconds</li>
+              <li>Remove charger</li>
+              <li>Replace charger</li>
+              <li>Hold down the refresh and power buttons for 3 seconds</li>
+              <li>The device will hopefully turn on.</li>
+            </ol>
+          <h3 id="serial-number">Serial Number</h3>
+            <ol>
+              <li>On the back of the Chromebook, look for small letters that say S/N#: ______</li>
+              <li>Or, if the device can boot up to the login screen, hit ALT + V and the S/N# will appear in the top right corner.</li>
+            </ol>
+      </div>
+
+
+      <div class="purple-body">
+        <h2 id="printer-toner">Printer Toner</h2>
+          <h3 id="printer-toner-request">Printer Toner Request</h3>
+            <ol>
+              <li>The expectation is that either teacher's come down to exchange or wait for delivery by student helpers EOD.</li>
+              <li>Teacher submits a "Toner Request" ticket on ML.</li>
+              <li>On the Work Order, scroll down to "Add Asset" and type in the "Space" number on the WO. Printers are named by the Room number. The correct printer should pop up and add that Asset to the ticket.</li>
+              <li>Then, on the WO, scroll down to "Add Inventory", and search for the Toner that the Printer Asset description lists. Student will add the matching Toner Inventory to the ticket.</li>
+              <li>Student will go to the Toner shelf and retrieve the correct toner cartridge</li>
+              <li>Student will deliver the cartridge, remove all orange tabs and collect the empty one. Please place it back in the packaging and box it up neatly for storage.</li>
+              <li>Students will double check that the correct toner has been added to the ML ticket and then close the ticket.</li>
+            </ol>
+      </div>
+
+
+    <script src="script.js"></script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+  </body>
+</html>
