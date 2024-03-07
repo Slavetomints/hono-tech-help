@@ -218,7 +218,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 0px; /* Adjust the margin as needed */
+  margin-right: 30px; /* Adjust the margin as needed */
 }
 .email-phone p {
   margin-right: 10%
